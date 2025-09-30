@@ -35,6 +35,30 @@ Manage product data through a mock REST API.
 
 Search products by title and filter them by category.
 
+
+product-management-app/
+│── public/
+│── src/
+│   ├── components/
+│   │   ├── ProductForm.jsx      # Add / Edit form
+│   │   ├── ProductList.jsx      # Displays all products
+│   │   ├── SearchFilter.jsx     # Search bar + category filter
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx             # Main page with product list
+│   │
+│   ├── redux/
+│   │   ├── store.js             # Redux store setup
+│   │   ├── productSlice.js      # Redux slice with CRUD reducers
+│   │
+│   ├── App.js
+│   ├── index.js
+│
+├── db.json                      # JSON Server mock database
+├── package.json
+└── README.md
+
+
 Maintain state globally with Redux Toolkit for scalability.
 
 The project follows a clean folder structure, separating components, Redux logic, and pages, ensuring readability and reusability. With a minimal UI, it provides a practical example of how to build a real-world product management system in React.
