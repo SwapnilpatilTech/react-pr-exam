@@ -1,0 +1,55 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "title": "iPhone 15 Pro",
+      "category": "Electronics",
+      "price": 134900
+    },
+    {
+      "id": 3,
+      "title": "Nike Air Max",
+      "category": "Fashion",
+      "price": 12999
+    },
+    {
+      "id": 4,
+      "title": "The Great Gatsby",
+      "category": "Books",
+      "price": 599
+    },
+    {
+      "id": 5,
+      "title": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 7999
+    },
+    {
+      "title": "laptop",
+      "category": "Electronics",
+      "price": 1000,
+      "id": 7
+    },
+    {
+      "title": "Sneaker",
+      "category": "Fashion",
+      "price": 10000,
+      "image": "",
+      "id": 8
+    },
+    {
+      "title": "sneaker ",
+      "category": "Fashion",
+      "price": 100000,
+      "image": "",
+      "id": 9
+    },
+    {
+      "title": "table",
+      "category": "Home & Garden",
+      "price": 5222555,
+      "image": "",
+      "id": 10
+    }
+  ]
+}

@@ -1,70 +1,16 @@
-📘 React JS Practical Exam – Product Management Application
+# React + Vite
 
-This is a Product Management Application built using React JS with Redux Toolkit and JSON Server as a mock backend.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The app demonstrates CRUD operations, state management with Redux, and search & filter functionality.
-<img src="https://github.com/SwapnilpatilTech/react-pr-exam/blob/0ec3e69ec7076c93fb1a4a137e15b10612c96ec4/Screenshot%202025-09-30%20184153.png" width="100%" />
+Currently, two official plugins are available:
 
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-<img src="https://github.com/SwapnilpatilTech/react-pr-exam/blob/2886d0f3ad3d3f26ad2c36f5d48dce453783b262/Recording%202025-09-30%20185123.gif" width="100%" />
+## React Compiler
 
+The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
+## Expanding the ESLint configuration
 
-🚀 Features
-
-✅ Backend (JSON Server) – Mock API with products resource
-✅ Redux Toolkit – Global state management
-✅ CRUD Functionality – Add, Edit, Delete products with live API updates
-✅ Search & Filter – Search by title + Filter by category
-✅ Clean UI/UX – Minimal but clear design
-✅ Proper Folder Structure – Components, Redux slices, and Pages separated
-
-🏗️ Tech Stack
-
-React JS
-
-Redux Toolkit
-
-JSON Server
-
-Axios / Fetch API
-
-CSS / Bootstrap (basic styling)
-
-
-
-The application allows users to:
-
-Add, edit, and delete products dynamically.
-
-Manage product data through a mock REST API.
-
-Search products by title and filter them by category.
-
-
-product-management-app/
-│── public/
-│── src/
-│   ├── components/
-│   │   ├── ProductForm.jsx      # Add / Edit form
-│   │   ├── ProductList.jsx      # Displays all products
-│   │   ├── SearchFilter.jsx     # Search bar + category filter
-│   │
-│   ├── pages/
-│   │   ├── Home.jsx             # Main page with product list
-│   │
-│   ├── redux/
-│   │   ├── store.js             # Redux store setup
-│   │   ├── productSlice.js      # Redux slice with CRUD reducers
-│   │
-│   ├── App.js
-│   ├── index.js
-│
-├── db.json                      # JSON Server mock database
-├── package.json
-└── README.md
-
-
-Maintain state globally with Redux Toolkit for scalability.
-
-The project follows a clean folder structure, separating components, Redux logic, and pages, ensuring readability and reusability. With a minimal UI, it provides a practical example of how to build a real-world product management system in React.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
