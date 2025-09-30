@@ -3,7 +3,10 @@
 This is a Product Management Application built using React JS with Redux Toolkit and JSON Server as a mock backend.
 
 The app demonstrates CRUD operations, state management with Redux, and search & filter functionality.
-<img src=""width=100%>
+<img src="https://github.com/SwapnilpatilTech/react-pr-exam/blob/e4c0d098c81584a7b1ea157b6c24dda2608e45e0/Recording%202025-09-30%20185123.gif"width=100%>
+
+<img src="https://github.com/SwapnilpatilTech/react-pr-exam/blob/e4c0d098c81584a7b1ea157b6c24dda2608e45e0/Screenshot%202025-09-30%20184153.png"width=100%>
+
 🚀 Features
 
 ✅ Backend (JSON Server) – Mock API with products resource
