@@ -3,7 +3,8 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 // Replace with your Bolt AI live endpoint
-const API_URL = 'https://your-bolt-ai-endpoint.com';
+const API_URL = 'https://dummyjson.com/products';
+
 
 export const fetchProducts = createAsyncThunk(
   'products/fetchAll',
