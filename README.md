@@ -6,6 +6,9 @@ The app demonstrates CRUD operations, state management with Redux, and search & 
 <img src="https://github.com/SwapnilpatilTech/react-pr-exam/blob/0ec3e69ec7076c93fb1a4a137e15b10612c96ec4/Screenshot%202025-09-30%20184153.png" width="100%" />
 
 
+<img src="https://github.com/SwapnilpatilTech/react-pr-exam/blob/2886d0f3ad3d3f26ad2c36f5d48dce453783b262/Recording%202025-09-30%20185123.gif" width="100%" />
+
+
 
 🚀 Features
 
